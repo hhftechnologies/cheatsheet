@@ -1,8 +1,8 @@
 const isProd = Boolean(import.meta.env.PROD)
 
 export const site = {
-  url: 'https://devhints.io',
-  title: 'Devhints.io cheatsheets'
+  url: 'https://cheatsheets.hhf.co.in',
+  title: 'HHF TechTips cheatsheets'
 } as const
 
 export const etc = {
@@ -20,12 +20,12 @@ export const googleAnalytics = {
 } as const
 
 export const github = {
-  repositoryUrl: 'https://github.com/rstacruz/cheatsheets',
+  repositoryUrl: 'https://github.com/hhftechnologies/cheatsheet',
   branch: 'master'
 } as const
 
 export const urls = {
-  newCheatsheetUrl: 'https://github.com/rstacruz/cheatsheets/issues/907'
+  newCheatsheetUrl: 'https://github.com/hhftechnologies/cheatsheet/issues/907'
 } as const
 
 export const carbon = {
@@ -66,11 +66,11 @@ export const categories = [
 ]
 
 export const announcement = {
-  id: '2023-12-14',
+  id: '2024-06-01',
   title: `We're on Twitter ♥️`,
   body: [
-    `Follow [@devhints](https://twitter.com/devhints) on X/Twitter for daily "today I learned" snippets.`,
+    `Follow [@devhints](https://twitter.com/hhftechtips) on X/Twitter for daily "today We taught" security.`,
     ``,
-    `Also: I've started a new blog with some insights on web development. Have a look! [**ricostacruz.com/posts**](https://ricostacruz.com/posts?utm_source=devhints)`
+    `Also: I've started a new docs with some insights on homeLab management. Have a look! [**techtips.hhf.co.in/blog**](https://techtips.hhf.co.in/blog?utm_source=cheatsheet)`
   ].join('\n')
 }
