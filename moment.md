@@ -1,8 +1,7 @@
 ---
 title: Moment.js
 category: JavaScript libraries
-layout: 2017/sheet
-updated: 2017-10-10
+updated: 2018-09-15
 tags: [Featurable]
 ---
 
@@ -62,6 +61,6 @@ See [datetime](./datetime) for more.
 
 ### Also see
 
-* [Datetime cheatsheet](./datetime) _(devhints.io)_
+* [Datetime cheatsheet](./datetime) _(cheetsheet.hhf.co.in)_
 * [Moment website](http://momentjs.com/) _(momentjs.com)_
 * [Moment docs](http://momentjs.com/docs/) _(momentjs.com)_

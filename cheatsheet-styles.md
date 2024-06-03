@@ -1,12 +1,11 @@
 ---
 title: Cheatsheet styles
-layout: 2017/sheet
 tags: [WIP]
-updated: 2017-09-22
+updated: 2017-10-26
 intro: |
-  This is a reference of styles that you can use on Devhints cheatsheets. How
+  This is a reference of styles that you can use on HHF TechTips cheatsheets. How
   meta!
-  You can refer to this when contributing your own cheatsheets to the [GitHub repo](https://github.com/rstacruz/cheatsheets/).
+  You can refer to this when contributing your own cheatsheets to the [GitHub repo](https://github.com/hhftechnologies/cheatsheet/).
 ---
 
 Intro
@@ -22,7 +21,6 @@ Variants
 | `-two-column` | _(default)_|
 | `-three-column` | |
 | `-left-reference` | 3 columns<br>_(short first column)_ |
-| `-no-hide` | Don't hide H2 |
 
 See: [H2 sections](#two-columns)
 
@@ -75,7 +73,7 @@ See: [Lists](#lists-1)
 {: .-two-column}
 ```
 
-Devhints uses Kramdown, and supports adding classes via Kramdown's syntax.
+HHFTechtips uses Kramdown, and supports adding classes via Kramdown's syntax.
 
 H3 sections
 -----------

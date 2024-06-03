@@ -1,6 +1,5 @@
 ---
 title: Food delivery (Philippines)
-layout: 2017/sheet
 intro: |
   Food delivery numbers & sites for top restaurant chains in Metro Manila. For numbers outside Metro Manila, check their websites.
 ---
@@ -65,4 +64,4 @@ intro: |
 
 ## -
 
-Hint: you can get to this page via [devhints.io/gutom](https://devhints.io/gutom) 🍅🍟
+Hint: you can get to this page via [cheetsheet.hhf.co.in/gutom](https://cheetsheet.hhf.co.in/gutom) 🍅🍟

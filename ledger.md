@@ -1,8 +1,7 @@
 ---
 title: Ledger CLI
 category: Ledger
-layout: 2017/sheet
-updated: 2017-08-26
+updated: 2020-05-23
 weight: -5
 ---
 

@@ -1,5 +1,11 @@
 # Developer notes
 
+## Runtimes
+
+Requires Node.js, Ruby, Yarn v1.
+
+See `.ruby-version` and `.node-version` for supported versions.
+
 ## Gitpod
 
 This repository supports contribution using [gitpod](https://gitpod.io) which is online IDE using [Theia](https://github.com/eclipse-theia/theia).
@@ -13,7 +19,7 @@ Or using a button:<br>
 
 To preview the website you need to first build it then you can navigate to file that you are trying to contribute and preview directly.
 
-<img src='_docs/images/gitpod_preview_tut.png' width=828 height=459/>
+<img src='.github/images/gitpod_preview_tut.png' width=828 height=459/>
 
 ## Starting a local instance
 
@@ -53,7 +59,7 @@ docker-compose up
 
 ## CSS classes
 
-See <https://devhints.io/cheatsheet-styles> for a reference on styling.
+See <https://cheetsheet.hhf.co.in/cheatsheet-styles> for a reference on styling.
 
 ## JavaScript
 
@@ -78,11 +84,9 @@ Each sheet supports these metadata:
 ```yml
 ---
 title: React.js
-layout: 2017/sheet # 'default' | '2017/sheet'
-
 # Optional:
 category: React
-updated: 2017-08-30 # To show in the updated list
+updated: 2020-06-14
 ads: false # Add this to disable ads
 weight: -5 # lower number = higher in related posts list
 deprecated: true # Don't show in related posts
@@ -137,7 +141,7 @@ So you want to fork this repo? Sure, here's what you need to know to whitelabel 
 
 ## CloudFlare purging
 
-The site devhints.io is backed by CloudFlare. Updates will take 2 days to propagate to the website by default. To make sure recent changes will propagate, use this helper script. It will give instructions on how manual selective cache purging can be done.
+The site cheetsheet.hhf.co.in is backed by CloudFlare. Updates will take 2 days to propagate to the website by default. To make sure recent changes will propagate, use this helper script. It will give instructions on how manual selective cache purging can be done.
 
 ```bash
 ./_support/cf-purge.sh
@@ -147,31 +151,31 @@ The site devhints.io is backed by CloudFlare. Updates will take 2 days to propag
 
 There are multiple ways to set meta description.
 
-### keywords (and intro)
+### Keywords (and intro)
 
 Set `keywords` (and optionally `intro`). This is the easiest and the preferred
 way for now.
 
 ```
-React cheatsheet - devhints.io
+React cheatsheet - cheetsheet.hhf.co.in
 ------------------------------
-https://devhints.io/react ▼
+https://cheetsheet.hhf.co.in/react ▼
 React.Component · render() · componentDidMount() · props/state · React is a
 JavaScript library for building web...
 ```
 
-### description (and intro)
+### Description (and intro)
 
 Set `description` (and optionally `intro`)
 
 ```
-React cheatsheet - devhints.io
+React cheatsheet - cheetsheet.hhf.co.in
 ------------------------------
-https://devhints.io/react ▼
+https://cheetsheet.hhf.co.in/react ▼
 One-page reference to React and its API. React is a JavaScript library for
 building web user interfaces...
 ```
 
-### intro only
+### Intro only
 
 If you left out `description` or `keywords`, a default description will be added.

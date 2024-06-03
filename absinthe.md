@@ -1,7 +1,6 @@
 ---
 title: Absinthe
 category: Hidden
-layout: 2017/sheet
 tags: [WIP]
 updated: 2017-10-10
 intro: |
@@ -156,4 +155,4 @@ See: [Mutations](http://absinthe-graphql.org/tutorial/mutations/)
 ## References
 
   - [Absinthe website](http://absinthe-graphql.org/) _(absinthe-graphql.org)_
-  - [GraphQL cheatsheet](./graphql) _(devhints.io)_
+  - [GraphQL cheatsheet](./graphql) _(cheatsheet.hhf.co.in)_
