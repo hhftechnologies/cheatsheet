@@ -169,9 +169,9 @@ JavaScript library for building web...
 Set `description` (and optionally `intro`)
 
 ```
-React cheatsheet - devhints.io
+React cheatsheet - cheetsheet.hhf.co.in
 ------------------------------
-https://devhints.io/react ▼
+https://cheetsheet.hhf.co.in/react ▼
 One-page reference to React and its API. React is a JavaScript library for
 building web user interfaces...
 ```
