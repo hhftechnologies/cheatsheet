@@ -1,7 +1,7 @@
 const isProd = Boolean(import.meta.env.PROD)
 
 export const site = {
-  url: 'https://cheatsheets.hhf.co.in',
+  url: 'https://cheatsheet.hhf.co.in',
   title: 'HHF TechTips cheatsheets'
 } as const
 
