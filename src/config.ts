@@ -11,7 +11,7 @@ export const etc = {
 
 export const disqus = {
   enabled: true,
-  host: 'devhints.disqus.com'
+  host: 'hhfcheetsheet.disqus.com'
 } as const
 
 export const googleAnalytics = {
@@ -31,7 +31,7 @@ export const urls = {
 export const carbon = {
   enabled: isProd,
   // src: 'https://cdn.carbonads.com/carbon.js?serve=CE7IK5QM&placement=devhintsio'
-  src: 'https://pubsrv.devhints.io/carbon.js?serve=CE7IK5QM&placement=devhintsio'
+  src: 'https://pubsrv.cheetsheet.hhf.co.in/carbon.js?serve=CE7IK5QM&placement=cheetsheethhf'
 } as const
 
 export const categories = [
@@ -69,7 +69,7 @@ export const announcement = {
   id: '2024-06-01',
   title: `We're on Twitter ♥️`,
   body: [
-    `Follow [@devhints](https://twitter.com/hhftechtips) on X/Twitter for daily "today We taught" security.`,
+    `Follow [@hhftechtips](https://twitter.com/hhftechtips) on X/Twitter for daily "today We taught" security.`,
     ``,
     `Also: I've started a new docs with some insights on homeLab management. Have a look! [**techtips.hhf.co.in/blog**](https://techtips.hhf.co.in/blog?utm_source=cheatsheet)`
   ].join('\n')

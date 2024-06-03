@@ -1,4 +1,4 @@
-<h1 align='center'>Devhints</h1>
+<h1 align='center'>HHF CheetSheets</h1>
 
 <blockquote align='center'>
 TL;DR for developer documentation - a ridiculous collection of cheatsheets
@@ -7,9 +7,9 @@ TL;DR for developer documentation - a ridiculous collection of cheatsheets
 <br>
 
 <p align='center'>
-<a href='https://devhints.io/'><img src='.github/images/screenshot.png' width=600></a>
+<a href='https://cheetsheet.hhf.co.in/'><img src='.github/images/screenshot.png' width=600></a>
 <br>
-✨ <b><a href='https://devhints.io/'>devhints.io</a></b> ✨
+✨ <b><a href='https://cheetsheet.hhf.co.in/'>cheetsheet.hhf.co.in</a></b> ✨
 </p>
 
 <br>

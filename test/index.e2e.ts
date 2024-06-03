@@ -4,7 +4,7 @@ import { expectMeta, getLdJsonPayloads } from './e2eUtils'
 
 test('homepage', async ({ page }) => {
   await page.goto('/')
-  await expect(page).toHaveTitle('Devhints — TL;DR for developer documentation')
+  await expect(page).toHaveTitle('HHFCheetsheet — TL;DR for developer documentation')
   const linksToAssert = [
     { name: 'Xpath', href: '/xpath' },
     { name: 'React', href: '/react' },
@@ -22,13 +22,13 @@ test('homepage', async ({ page }) => {
   const shareOnFacebook = page.getByLabel('Share on Facebook')
   const facebookHref = await shareOnFacebook.getAttribute('href')
   expect(facebookHref).toEqual(
-    'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevhints.io%2F'
+    'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcheetsheet.hhf.co.in%2F'
   )
 
   const shareOnTwitter = page.getByLabel('Share on Twitter')
   const twitterHref = await shareOnTwitter.getAttribute('href')
   expect(twitterHref).toEqual(
-    'https://twitter.com/intent/tweet?text=Ridiculous%20collection%20of%20web%20development%20cheatsheets%20https%3A%2F%2Fdevhints.io%2F'
+    'https://twitter.com/intent/tweet?text=Ridiculous%20collection%20of%20web%20development%20cheatsheets%20https%3A%2F%2Fcheetsheet.hhf.co.in%2F'
   )
 })
 
@@ -82,13 +82,13 @@ test('/knex', async ({ page }) => {
   const shareOnFacebook = page.getByLabel('Share on Facebook')
   const facebookHref = await shareOnFacebook.getAttribute('href')
   expect(facebookHref).toEqual(
-    'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevhints.io%2Fknex'
+    'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcheetsheet.hhf.co.in%2Fknex'
   )
 
   const shareOnTwitter = page.getByLabel('Share on Twitter')
   const twitterHref = await shareOnTwitter.getAttribute('href')
   expect(twitterHref).toEqual(
-    'https://twitter.com/intent/tweet?text=The%20ultimate%20cheatsheet%20for%20Knex%20https%3A%2F%2Fdevhints.io%2Fknex'
+    'https://twitter.com/intent/tweet?text=The%20ultimate%20cheatsheet%20for%20Knex%20https%3A%2F%2Fcheetsheet.hhf.co.in%2Fknex'
   )
 })
 
@@ -99,7 +99,7 @@ test('/sinon', async ({ page }) => {
 
   const payload2 = ldJsonPayloads[1] as JsonLdBreadcrumbList
   expect(payload2.itemListElement[0].item['@id']).toEqual(
-    'https://devhints.io/#javascript-libraries'
+    'https://cheetsheet.hhf.co.in/#javascript-libraries'
   )
 })
 

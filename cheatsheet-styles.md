@@ -3,9 +3,9 @@ title: Cheatsheet styles
 tags: [WIP]
 updated: 2017-10-26
 intro: |
-  This is a reference of styles that you can use on Devhints cheatsheets. How
+  This is a reference of styles that you can use on HHF TechTips cheatsheets. How
   meta!
-  You can refer to this when contributing your own cheatsheets to the [GitHub repo](https://github.com/rstacruz/cheatsheets/).
+  You can refer to this when contributing your own cheatsheets to the [GitHub repo](https://github.com/hhftechnologies/cheatsheet/).
 ---
 
 Intro
@@ -73,7 +73,7 @@ See: [Lists](#lists-1)
 {: .-two-column}
 ```
 
-Devhints uses Kramdown, and supports adding classes via Kramdown's syntax.
+HHFTechtips uses Kramdown, and supports adding classes via Kramdown's syntax.
 
 H3 sections
 -----------

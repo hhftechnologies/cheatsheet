@@ -4,11 +4,11 @@ import type { SheetPage } from '../page'
 
 export function getSEOPropsForHome() {
   const t = {
-    title: 'Devhints — TL;DR for developer documentation',
+    title: 'HHFCheetSheets — TL;DR for developer documentation',
     description: 'A ridiculous collection of web development cheatsheets'
   }
   const url = site.url
-  const image = 'https://assets.devhints.io/previews/index.jpg'
+  const image = 'https://assets.cheetsheet.hhf.co.in/previews/index.jpg'
 
   return {
     title: t.title,
@@ -133,7 +133,7 @@ function denull(
 }
 
 export function getPageImage({ slug }: { slug: string }) {
-  return `https://assets.devhints.io/previews/${slug}.jpg`
+  return `https://assets.cheetsheet.hhf.co.in/previews/${slug}.jpg`
 }
 
 export function getPageURL({ slug }: { slug: string }) {

@@ -59,7 +59,7 @@ docker-compose up
 
 ## CSS classes
 
-See <https://devhints.io/cheatsheet-styles> for a reference on styling.
+See <https://cheetsheet.hhf.co.in/cheatsheet-styles> for a reference on styling.
 
 ## JavaScript
 
@@ -141,7 +141,7 @@ So you want to fork this repo? Sure, here's what you need to know to whitelabel 
 
 ## CloudFlare purging
 
-The site devhints.io is backed by CloudFlare. Updates will take 2 days to propagate to the website by default. To make sure recent changes will propagate, use this helper script. It will give instructions on how manual selective cache purging can be done.
+The site cheetsheet.hhf.co.in is backed by CloudFlare. Updates will take 2 days to propagate to the website by default. To make sure recent changes will propagate, use this helper script. It will give instructions on how manual selective cache purging can be done.
 
 ```bash
 ./_support/cf-purge.sh
@@ -157,9 +157,9 @@ Set `keywords` (and optionally `intro`). This is the easiest and the preferred
 way for now.
 
 ```
-React cheatsheet - devhints.io
+React cheatsheet - cheetsheet.hhf.co.in
 ------------------------------
-https://devhints.io/react ▼
+https://cheetsheet.hhf.co.in/react ▼
 React.Component · render() · componentDidMount() · props/state · React is a
 JavaScript library for building web...
 ```
