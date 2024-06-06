@@ -6,7 +6,7 @@ category: HTML
 ### Head stuff
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="/favicon.svg">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 ### iPhone viewport
@@ -61,7 +61,7 @@ category: HTML
 
 ### Icons
 
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.svg">
     <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon">
     <link href="apple-touch-icon-57x57-precomposed.png" size="57x57" rel="apple-touch-icon">
     <link href="apple-touch-icon-72x72-precomposed.png" size="72x72" rel="apple-touch-icon">
