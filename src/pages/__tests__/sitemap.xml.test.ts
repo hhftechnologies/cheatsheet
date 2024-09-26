@@ -10,12 +10,12 @@ beforeEach(async () => {
 })
 
 test('has data', async () => {
-  expect(lines).toContain('<url><loc>https://cheetsheet.hhf.co.in/react</loc></url>')
-  expect(lines).toContain('<url><loc>https://cheetsheet.hhf.co.in/bash</loc></url>')
+  expect(lines).toContain('<url><loc>https://cheetsheet.hhf.technology/react</loc></url>')
+  expect(lines).toContain('<url><loc>https://cheetsheet.hhf.technology/bash</loc></url>')
 })
 
 test('skip unlisted sheets', async () => {
   expect(lines).not.toContain(
-    '<url><loc>https://cheetsheet.hhf.co.in/tests/basic</loc></url>'
+    '<url><loc>https://cheetsheet.hhf.technology/tests/basic</loc></url>'
   )
 })

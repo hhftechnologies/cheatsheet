@@ -7,9 +7,9 @@ TL;DR for developer documentation - a ridiculous collection of cheatsheets
 <br>
 
 <p align='center'>
-<a href='https://cheetsheet.hhf.co.in/'><img src='.github/images/screenshot.png' width=600></a>
+<a href='https://cheetsheet.hhf.technology/'><img src='.github/images/screenshot.png' width=600></a>
 <br>
-✨ <b><a href='https://cheetsheet.hhf.co.in/'>cheetsheet.hhf.co.in</a></b> ✨
+✨ <b><a href='https://cheetsheet.hhf.technology/'>cheetsheet.hhf.technology</a></b> ✨
 </p>
 
 <br>

@@ -64,4 +64,4 @@ intro: |
 
 ## -
 
-Hint: you can get to this page via [cheetsheet.hhf.co.in/gutom](https://cheetsheet.hhf.co.in/gutom) 🍅🍟
+Hint: you can get to this page via [cheetsheet.hhf.technology/gutom](https://cheetsheet.hhf.technology/gutom) 🍅🍟

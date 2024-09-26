@@ -8,7 +8,7 @@ export function getSEOPropsForHome() {
     description: 'A ridiculous collection of web development cheatsheets'
   }
   const url = site.url
-  const image = 'https://assets.cheetsheet.hhf.co.in/previews/index.jpg'
+  const image = 'https://assets.cheetsheet.hhf.technology/previews/index.jpg'
 
   return {
     title: t.title,
@@ -133,7 +133,7 @@ function denull(
 }
 
 export function getPageImage({ slug }: { slug: string }) {
-  return `https://assets.cheetsheet.hhf.co.in/previews/${slug}.jpg`
+  return `https://assets.cheetsheet.hhf.technology/previews/${slug}.jpg`
 }
 
 export function getPageURL({ slug }: { slug: string }) {

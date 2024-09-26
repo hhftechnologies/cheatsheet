@@ -19,7 +19,7 @@ it('works', () => {
         "description": "A React cheatsheet · One-page guide to React",
         "headline": "React cheatsheet",
         "image": [
-          "https://assets.cheetsheet.hhf.co.in/previews/react.jpg",
+          "https://assets.cheetsheet.hhf.technology/previews/react.jpg",
         ],
         "mainEntityOfPage": {
           "@id": "https://google.com/article",
@@ -33,7 +33,7 @@ it('works', () => {
           {
             "@type": "ListItem",
             "item": {
-              "@id": "https://cheetsheet.hhf.co.in/#javascript",
+              "@id": "https://cheetsheet.hhf.technology/#javascript",
               "name": "JavaScript",
             },
             "position": 1,
@@ -41,7 +41,7 @@ it('works', () => {
           {
             "@type": "ListItem",
             "item": {
-              "@id": "https://cheetsheet.hhf.co.in/react",
+              "@id": "https://cheetsheet.hhf.technology/react",
               "name": "React cheatsheet",
             },
             "position": 2,

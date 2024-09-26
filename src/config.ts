@@ -1,7 +1,7 @@
 const isProd = Boolean(import.meta.env.PROD)
 
 export const site = {
-  url: 'https://cheatsheets.hhf.co.in',
+  url: 'https://cheatsheets.hhf.technology',
   title: 'HHF TechTips cheatsheets'
 } as const
 
@@ -31,7 +31,7 @@ export const urls = {
 export const carbon = {
   enabled: isProd,
   // src: 'https://cdn.carbonads.com/carbon.js?serve=CE7IK5QM&placement=devhintsio'
-  src: 'https://pubsrv.cheetsheet.hhf.co.in/carbon.js?serve=CE7IK5QM&placement=cheetsheethhf'
+  src: 'https://pubsrv.cheetsheet.hhf.technology/carbon.js?serve=CE7IK5QM&placement=cheetsheethhf'
 } as const
 
 export const categories = [
@@ -71,6 +71,6 @@ export const announcement = {
   body: [
     `Follow [@hhftechtips](https://twitter.com/hhftechtips) on X/Twitter for daily "today We taught" security.`,
     ``,
-    `Also: I've started a new docs with some insights on homeLab management. Have a look! [**techtips.hhf.co.in/blog**](https://techtips.hhf.co.in/blog?utm_source=cheatsheet)`
+    `Also: I've started a new docs with some insights on homeLab management. Have a look! [**techtips.hhf.technology/blog**](https://techtips.hhf.technology/blog?utm_source=cheatsheet)`
   ].join('\n')
 }

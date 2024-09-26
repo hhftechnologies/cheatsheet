@@ -26,7 +26,7 @@ test('/tests/basic', async ({ page }) => {
       '@id': 'https://google.com/article'
     },
     headline: 'Basic test cheatsheet',
-    image: ['https://cheetsheet.hhf.co.in/previews/tests/basic.jpg'],
+    image: ['https://cheetsheet.hhf.technology/previews/tests/basic.jpg'],
     description:
       'The one-page guide to Basic test: usage, examples, links, snippets, and more.'
   })
@@ -39,13 +39,13 @@ test('/tests/basic', async ({ page }) => {
       {
         '@type': 'ListItem',
         position: 1,
-        item: { '@id': 'https://cheetsheet.hhf.co.in/#hidden', name: 'Hidden' }
+        item: { '@id': 'https://cheetsheet.hhf.technology/#hidden', name: 'Hidden' }
       },
       {
         '@type': 'ListItem',
         position: 2,
         item: {
-          '@id': 'https://cheetsheet.hhf.co.in/tests/basic',
+          '@id': 'https://cheetsheet.hhf.technology/tests/basic',
           name: 'Basic test cheatsheet'
         }
       }
